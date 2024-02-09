@@ -75,23 +75,16 @@ body {
     height: 35px;
     line-height: 35px;
     text-align: center;
-    border: 1px solid #3f3f3f;
     border-radius: 50%;
     color: #3f3f3f;
 }
 
-.wrapper .top_navbar .top_menu ul li a:hover {
-    background: #3f3f3f;
-    color: #fff;
-}
-
 .wrapper .top_navbar .top_menu ul li a {
-    background: #3f3f3f;
     color: #fff;
 }
 
 .wrapper .top_navbar .top_menu ul li a:hover i {
-    color: #fff;
+    color: lightgreen;
 }
 
 .wrapper .sidebar {
@@ -191,4 +184,36 @@ body {
 .show {
     opacity: 1;
     filter: blur(0);
+}
+
+.searchcontainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #282828;
+    border: 1px solid #282828;
+    border-radius: 8px;
+    width: 15em;
+    position: relative;
+    height: 2.5em
+}
+
+.searchcontainer .fas.fa-search {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding-right: 1em;
+}
+
+.searchcontainer input {
+    background-color: transparent;
+    border: none;
+    margin-top: 1em;
+    outline: none;
+    color: #fff;
+}
+
+.main_container {
+    color: #fff
 }

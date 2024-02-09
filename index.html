@@ -20,7 +20,7 @@
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-latest.min.js">
     </script>
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://kit.fontawesome.com/738b010a4b.js" crossorigin="anonymous"></script>
     </script>
     <script>
         $(document).ready(function () {
@@ -32,7 +32,7 @@
 </head>
 
 <body>
-    <div class="wrapper">
+    <div class="wrapper collapse">
         <div class="top_navbar">
             <div class="hamburger">
                 <div class="one"></div>
@@ -44,34 +44,36 @@
                     Winch
                 </div>
                 <ul class="icons">
-                    <li><a href="#">
-                            <i id="ico" class="fas fa-search"></i>
-                        </a></li>
+                    <li>
+                        <div class="searchcontainer">
+                            <input type="text" placeholder="Search..." class="search">
+                            </input>
+                            <a href="#">
+                                <i id="ico" class="fas fa-search"></i>
+                            </a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>
 
         <div class="sidebar">
             <ul>
-                <li><a href="#">
-                        <span class="icon"><i class="fas fa-book"></i></span>
-                        <span class="title">Books</span>
+                <li><a href="https://winchteam.dev/about" class="active">
+                        <span class="icon"><i class="fa-solid fa-address-card"></i></span>
+                        <span class="title">About Us</span>
                     </a></li>
-                <li><a href="#">
-                        <span class="icon"><i class="fas fa-file-video"></i></span>
-                        <span class="title">Movies</span>
+                <li><a href="https://winchteam.dev/projects">
+                        <span class="icon"><i class="fa-solid fa-diagram-project"></i></span>
+                        <span class="title">Projects</span>
                     </a></li>
-                <li><a href="#">
-                        <span class="icon"><i class="fas fa-volleyball-ball"></i></span>
-                        <span class="title">Sports</span>
+                <li><a href="https://index.winchteam.dev">
+                        <span class="icon"><i class="fa-solid fa-boxes-stacked"></i></span>
+                        <span class="title">Winch Packages</span>
                     </a></li>
-                <li><a href="#" class="active">
-                        <span class="icon"><i class="fas fa-blog"></i></span>
-                        <span class="title">Blogs</span>
-                    </a></li>
-                <li><a href="#">
-                        <span class="icon"><i class="fas fa-leaf"></i></span>
-                        <span class="title">Nature</span>
+                <li><a href="https://winchteam.dev/updates">
+                        <span class="icon"><i class="fa-solid fa-bell"></i></span>
+                        <span class="title">Updates</span>
                     </a></li>
             </ul>
         </div>
