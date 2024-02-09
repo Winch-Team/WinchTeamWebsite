@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Skeleton CSS -->
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+        rel="stylesheet" />
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&amp;display=swap" rel="stylesheet"
+        type="text/css" />
+    <!-- Favicon -->
+    <link href="./favicon.ico" rel="icon" type="image/svg+xml" />
+    <!-- Custom Styles -->
+    <link href="static\index_style.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-latest.min.js">
+    </script>
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".hamburger").click(function () {
+                $(".wrapper").toggleClass("collapse");
+            });
+        });
+    </script>
+    <title>Winch Team</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="top_navbar">
+            <div class="hamburger">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
+            <div class="top_menu">
+                <div class="logo">
+                    Winch
+                </div>
+                <ul class="icons">
+                    <li><a href="#">
+                            <i id="ico" class="fas fa-search"></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i id="ico" class="fas fa-bell"></i>
+                        </a></li>
+                    <li><a href="#">
+                            <i id="ico" class="fas fa-user"></i>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">
+                        <span class="icon"><i class="fas fa-book"></i></span>
+                        <span class="title">Books</span>
+                    </a></li>
+                <li><a href="#">
+                        <span class="icon"><i class="fas fa-file-video"></i></span>
+                        <span class="title">Movies</span>
+                    </a></li>
+                <li><a href="#">
+                        <span class="icon"><i class="fas fa-volleyball-ball"></i></span>
+                        <span class="title">Sports</span>
+                    </a></li>
+                <li><a href="#" class="active">
+                        <span class="icon"><i class="fas fa-blog"></i></span>
+                        <span class="title">Blogs</span>
+                    </a></li>
+                <li><a href="#">
+                        <span class="icon"><i class="fas fa-leaf"></i></span>
+                        <span class="title">Nature</span>
+                    </a></li>
+            </ul>
+        </div>
+
+        <div class="main_container">
+        </div>
+    </div>
+</body>
+
+</html>
