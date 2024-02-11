@@ -10,7 +10,8 @@
 body {
     background-color: #282828;
     margin: 0;
-    font-family: Montserrat, sans-serif;;
+    font-family: Montserrat, sans-serif;
+    ;
 }
 
 section {
@@ -20,6 +21,7 @@ section {
     align-content: center;
     height: 100vh;
 }
+
 .topbar {
     height: 50px;
     background: #3f3f3f;
@@ -32,6 +34,7 @@ section {
     width: 100%;
     z-index: 1;
 }
+
 .topbar .logo {
     font-family: "LAR", sans-serif;
     color: #fff;
