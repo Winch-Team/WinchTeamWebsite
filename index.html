@@ -2,104 +2,46 @@
 <html lang="en">
 
 <head>
-    <title>Winch Team</title>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- Skeleton CSS -->
-    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
-        rel="stylesheet" />
-    <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&amp;display=swap" rel="stylesheet"
-        type="text/css" />
-    <!-- Favicon -->
+    <title>Winch Team</title>
     <link href="./favicon.ico" rel="icon" type="image/svg+xml" />
-    <!-- Custom Styles -->
-    <link href="static\index_style.css" rel="stylesheet">
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-latest.min.js">
-    </script>
     <script src="https://kit.fontawesome.com/738b010a4b.js" crossorigin="anonymous"></script>
-    </script>
-    <script>
-        $(document).ready(function () {
-            $(".hamburger").click(function () {
-                $(".wrapper").toggleClass("collapse");
-            });
-        });
-    </script>
+    <link rel="stylesheet" href="./static/index_style.css">
     <script defer src="app.js"></script>
 </head>
 
 <body>
-    <div class="wrapper collapse">
-        <div class="top_navbar">
-            <div class="hamburger">
-                <div class="one"></div>
-                <div class="two"></div>
-                <div class="three"></div>
-            </div>
-            <div class="top_menu">
-                <div class="logo">
-                    Winch
-                </div>
-                <ul class="icons">
-                    <li>
-                        <div class="searchcontainer">
-                            <input type="text" placeholder="Search..." class="search">
-                            </input>
-                            <a href="#">
-                                <i id="ico" class="fas fa-search"></i>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+    <div class="topbar">
+        <div class="logo">
+            Winch
         </div>
 
-        <div class="sidebar">
-            <ul>
-                <li><a href="https://winchteam.dev/about" class="active">
-                        <span class="icon"><i class="fa-solid fa-address-card"></i></span>
-                        <span class="title">About Us</span>
-                    </a></li>
-                <li><a href="https://winchteam.dev/projects">
-                        <span class="icon"><i class="fa-solid fa-diagram-project"></i></span>
-                        <span class="title">Projects</span>
-                    </a></li>
-                <li><a href="https://index.winchteam.dev">
-                        <span class="icon"><i class="fa-solid fa-boxes-stacked"></i></span>
-                        <span class="title">Winch Packages</span>
-                    </a></li>
-                <li><a href="https://winchteam.dev/updates">
-                        <span class="icon"><i class="fa-solid fa-bell"></i></span>
-                        <span class="title">Updates</span>
-                    </a></li>
-            </ul>
-        </div>
+        <div class="search-bar">
 
-        <div class="main_container">
-            <section class="hidden">
-                <h1>About Us</h1>
-                <p>Winch Team is a group of developers who are passionate about creating software and web applications. We
-                    are a group of developers who are passionate about creating software and web applications. We are a
-                    group of</p>
-            </section>
-            <section class="hidden">
-                <h1>Our Team</h1>
-                <p>Winch Team is a group of developers who are passionate about creating software and web applications. We
-                    are a group of developers who are passionate about creating software and web applications. We are a
-                    group of</p>
-            </section>
-            <section class="hidden">
-                <h1>Our Team</h1>
-                <p>Winch Team is a group of developers who are passionate about creating software and web applications. We
-                    are a group of developers who are passionate about creating software and web applications. We are a
-                    group of</p>
-            </section>
+            <input type="text" placeholder="Search...">
+            <button><i class="fas fa-search"></i></button>
         </div>
     </div>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="https://winchteam.dev/about"><i class="fas fa-info-circle"></i> About Us</a></li>
+            <li><a href="https://winchteam.dev/projects"><i class="fa-solid fa-diagram-project"></i>Projects</a></li>
+            <li><a href="https://index.winchteam.dev"><i class="fa-solid fa-boxes-stacked"></i>Winch Packages</a></li>
+            <li><a href="https://winchteam.dev/updates"><i class="fas fa-bell"></i>Updates</i></a></li>
+        </ul>
+    </div>
+
+    <section class="hidden">
+        <p>Lorem ipsum dolor dksfaldgsdgasdkglasndg sakdgj sdfk asd;sdmgasd lhgkasdkjgsdkjfla;s</p>
+    </section>
+    <section class="hidden">
+        <p>Lorem ipsum dolor dksfaldgsdgasdkglasndg sakdgj sdfk asd;sdmgasd lhgkasdkjgsdkjfla;s</p>
+    </section>
+    <section class="hidden">
+        <p>Lorem ipsum dolor dksfaldgsdgasdkglasndg sakdgj sdfk asd;sdmgasd lhgkasdkjgsdkjfla;s</p>
+    </section>
 </body>
 
 </html>
